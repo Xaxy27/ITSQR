@@ -1,0 +1,16 @@
+Paste the file into your xampp/htdocs directory.
+
+Open XAMPP (start Apache and MySQL), then click the "Admin" button for MySQL.
+
+After that, in phpMyAdmin, click on "New," then go to "Import."
+
+Choose the `qrcodedb.sql` file and click "Import."
+
+Once the import is complete, you can open the system. Just type `localhost/ITSQR/` in your browser.
+
+On the login page, click the lock icon next to the password field, then go back to the login screen.
+
+For the login:
+- Username: ITSsociety
+- Password: codeblooded
+

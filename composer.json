@@ -1,0 +1,7 @@
+{
+    "require": {
+        "phpoffice/phpspreadsheet": "^2.2",
+        "khanamiryan/qrcode-detector-decoder": "^2.0",
+        "endroid/qr-code": "^5.0"
+    }
+}

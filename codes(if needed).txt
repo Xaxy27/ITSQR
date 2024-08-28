@@ -1,0 +1,45 @@
+message:
+     <?php
+                if(isset($_SESSION['error'])){
+                    echo"
+                    <div class='alert alert-danger'>
+                    <h4>Error!</h4>
+                    ".$_SESSION['error']."
+                    </div>
+                    ";
+                }
+
+                if(isset($_SESSION['success'])){
+                    echo"
+                    <div class='alert alert-success' style='background:green; color:white;'>
+                    <h4>Success!</h4>
+                    ".$_SESSION['success']."
+                    </div>
+                    ";
+                }
+                ?>
+
+                if($conn->query($sql) ===TRUE){
+       $_SESSION['success'] = 'Attendance Added Successfully';
+    }else{
+        $_SESSION['error'] = $conn->error;
+    }
+
+voice:
+$voice = new com("SAPI.SpVoice");
+$message = "Hi" .$text. "Your Attendance Has Been Successfully Added!. Thank you";
+
+if error sa other xampp:
+
+[COM_DOT_NET]
+extension=php_com_dotnet.dll
+
+punta sa apache then config find the php.ini tas paste yung code na yan sa pinaka bottom
+
+
+for special characters such as enye go to the mysql config inside the xampp
+(my.cnf or my.ini)
+
+[mysqld]
+character-set-server=utf8mb4
+collation-server=utf8mb4_unicode_ci

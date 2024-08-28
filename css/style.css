@@ -1,0 +1,88 @@
+
+
+.navbar {
+    background-color: #343a40;
+    padding: 15px 20px;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+.navbar-brand img {
+    margin-right: 15px;
+}
+.navbar-brand h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.search-container {
+    margin-bottom: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #343a40;
+    color: #ffffff;
+    z-index: 12;
+}
+
+
+
+.camera-controls button {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.scanner-container {
+    margin-bottom: 20px;
+}
+
+
+.alert {
+    margin-top: 10px;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-success i {
+    margin-right: 5px;
+}
+
+.camera-container video {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.camera-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.camera-controls button {
+    margin-left: 10px;
+}
+
+@media (max-width: 767.98px) {
+    .navbar {
+        margin-bottom: 10px;
+    }
+
+    .footer {
+        padding: 10px;
+    }
+}
